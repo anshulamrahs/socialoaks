@@ -1,9 +1,18 @@
-import React from 'react'
+import BG from "../assets/bubl.jpeg";
 
 const Eyes = () => {
   return (
-    <div>Eyes</div>
-  )
-}
+    <div className="w-full h-screen overflow-hidden">
+      <div
+        data-scroll
+        data-scroll-speed="-.7"
+        className="w-full h-full relative flex items-center justify-center"
+      >
+        <h1 className="absolute text-9xl -mt-56">Socialoaks.</h1>
+        <img src={BG} alt=""></img>
+      </div>
+    </div>
+  );
+};
 
-export default Eyes
+export default Eyes;

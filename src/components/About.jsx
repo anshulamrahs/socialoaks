@@ -1,3 +1,5 @@
+import APPI from "../assets/approach.jpeg";
+
 const About = () => {
   return (
     <div className="w-full p-20 bg-[#CDEA68] rounded-tl-3xl rounded-tr-3xl text-black">
@@ -14,7 +16,9 @@ const About = () => {
             <div className="w-2 h-2 bg-zinc-100 rounded-full"></div>
           </button>
         </div>
-        <div className="w-1/2 h-[70vh] rounded-3xl bg-[#a1b562]"></div>
+        <div className="w-1/2 h-[70vh] rounded-3xl bg-[#1a1a19]">
+          <img className="w-full h-[70vh] rounded-3xl" src={APPI} alt=""></img>
+        </div>
       </div>
     </div>
   );
