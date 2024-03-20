@@ -8,7 +8,7 @@ const Eyes = () => {
         data-scroll-speed="-.7"
         className="w-full h-full relative flex items-center justify-center"
       >
-        <h1 className="absolute text-9xl -mt-56">Socialoaks.</h1>
+        <h1 className="absolute text-9xl -mt-60">Socialoaks.</h1>
         <img src={BG} alt=""></img>
       </div>
     </div>

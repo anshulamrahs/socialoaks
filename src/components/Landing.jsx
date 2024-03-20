@@ -5,6 +5,7 @@ import BG from "../assets/bubl.jpeg";
 const Landing = () => {
   return (
     <div
+    id="home"
       data-scroll
       data-scroll-speed="-.3"
       className="w-full h-screen bg-zinc-900 pt-1"

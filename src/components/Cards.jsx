@@ -2,7 +2,7 @@ import BG from "../assets/oaksbg.png";
 
 const Cards = () => {
   return (
-    <div className="w-full h-screen bg-zinc-900 flex gap-5 items-center px-12">
+    <div className="w-full h-screen bg-zinc-900 flex gap-5 items-center px-12" id="cards">
       <div className="card-contain w-1/2 h-[50vh] ">
         <div className="card relative rounded-xl w-full h-full bg-[#004D43] flex items-center justify-center">
           <img className="w-[20vw] " src={BG} alt=""></img>
