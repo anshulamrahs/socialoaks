@@ -5,7 +5,15 @@ export default {
     "./src/**/*.{js,ts,jsx,tsx}",
   ],
   theme: {
-    extend: {},
+    
+    extend: {
+      backgroundImage: {
+        'mask': "bg-[#ec4e39],url(../assets/masks.svg)"
+      },
+      fontFamily:{
+       body: ["Montserrat"]
+      }
+    },
   },
   plugins: [],
 }

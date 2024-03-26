@@ -57,8 +57,10 @@ const Landing = () => {
             >
               {item}
             </p>
+            
           )
         )}
+        
         <div className="start flex items-center gap-5">
           <div className="px-5 py-2 rounded-full border-[1px] border-zinc-500 font-light text-md capitalize">
             Start the project

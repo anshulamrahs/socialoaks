@@ -2,7 +2,7 @@ import BG from "../assets/bubl.jpeg";
 
 const Eyes = () => {
   return (
-    <div className="w-full h-screen overflow-hidden">
+    <div className="w-full h-screen overflow-hidden" id="about">
       <div
         data-scroll
         data-scroll-speed="-.7"

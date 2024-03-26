@@ -11,7 +11,7 @@ const Projects = () => {
   };
 
   return (
-    <div className="w-full py-20" id="projects">
+    <div className="w-full py-20" id="project">
       <div className="w-full px-20 border-b-[1px] border-zinc-700 pb-20">
         <h1 className="text-6xl tracking-tight">Featured Projects</h1>
       </div>
@@ -23,13 +23,14 @@ const Projects = () => {
             className="card-container relative w-1/2 h-[75vh] "
           >
             <h1 className="text-8xl flex absolute overflow-hidden right-0 translate-x-1/2 top-1/2 -translate-y-1/2 text-[#CDEA68] z-[9] leading-none tracking-tighter">
-              {"FYDE".split("").map((item, index) => (
+              {"NETFLIX".split("").map((item, index) => (
                 <motion.span
                   initial={{ y: "100%" }}
                   animate={cards[0]}
-                  transition={{ ease: [0.83, 0, 0.17, 1], delay: index * 0.1 }}
+                  transition={{ ease: [0.83, 0, 0.17, 1], delay: index * 0.07 }}
                   className="inline-block "
                   key={index}
+                  exit={{y:"0%"}}
                 >
                   {item}
                 </motion.span>
@@ -38,7 +39,7 @@ const Projects = () => {
             <div className="w-full h-full rounded-xl overflow-hidden">
               <img
                 className="w-full h-full bg-cover "
-                src="https://images.unsplash.com/photo-1603244873016-c0ede259d131?q=80&w=1985&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D"
+                src="https://images.unsplash.com/photo-1627873649417-c67f701f1949?q=80&w=2940&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D"
                 alt=""
               ></img>
             </div>
@@ -48,11 +49,11 @@ const Projects = () => {
            onHoverEnd={() => handleHoverEnd(1)}
           className="card-container w-1/2 h-[75vh] relative ">
             <h1 className="flex overflow-hidden text-8xl absolute right-full translate-x-1/2 top-1/2 -translate-y-1/2 text-[#CDEA68] z-[9] leading-none tracking-tighter">
-              {"VISE".split("").map((item, index) => (
+              {"YOUTUBE".split("").map((item, index) => (
                  <motion.span
                  initial={{ y: "100%" }}
                  animate={cards[1]}
-                 transition={{ ease: [0.83, 0, 0.17, 1], delay: index * 0.1 }}
+                 transition={{ ease: [0.83, 0, 0.17, 1], delay: index * 0.07 }}
                  className="inline-block "
                  key={index}
                >
@@ -62,7 +63,7 @@ const Projects = () => {
             </h1>
             <img
               className="w-full h-full bg-cover "
-              src="https://images.unsplash.com/photo-1603244873016-c0ede259d131?q=80&w=1985&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D"
+              src="https://images.unsplash.com/photo-1691055712341-7feb54e32cb0?w=800&auto=format&fit=crop&q=60&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxlZGl0b3JpYWwtZmVlZHwxNTN8fHxlbnwwfHx8fHw%3D"
               alt=""
             ></img>
           </motion.div>

@@ -2,7 +2,7 @@ import BG from "../assets/oaksbg.png";
 
 const Footer = () => {
   return (
-    <div className="w-full h-screen bg-zinc-900 p-20 flex gap-5">
+    <div className="w-full h-screen bg-zinc-900 p-20 flex gap-5 " id="contact">
       <div className="w-1/2 flex h-full flex-col justify-between">
         <div className="heading mt-10">
           <h1 className="text-[6vw] font-semibold uppercase -mb-10">Eye-</h1>
