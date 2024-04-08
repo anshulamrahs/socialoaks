@@ -1,9 +1,10 @@
 .main {
   height: 100vh;
+  width: 100vw;
 
   .mask,
   .bodycon {
-    width: 100%;
+    width: 100vw;
     height: 75%;
     display: flex;
     align-items: center;
@@ -17,14 +18,37 @@
       width: 1100px;
       padding: 40px;
       margin-top: 50px;
-      $breakpoint-tablet: 630px;
-      @media (max-width: $breakpoint-tablet) {
-        font-size: large;
+      $breakpoint-lg: 1200px;
+      @media (max-width: $breakpoint-lg) {
+        font-size: 50px;
         padding: 15px 15px;
       }
-      $breakpoint-screen:480px;
-      @media (max-width: $breakpoint-screen) {
-        font-size: small;
+      $breakpoint-md: 1060px;
+      @media (max-width: $breakpoint-md) {
+        font-size: 40px;
+        padding: 15px 15px;
+        line-height: 48px;
+      }
+      $breakpoint-sm: 768px;
+      @media (max-width: $breakpoint-sm) {
+        font-size: 30px;
+        padding: 15px 15px;
+        line-height: 48px;
+      }
+      $breakpoint-ss: 620px;
+      @media (max-width: $breakpoint-ss) {
+        font-size: 25px;
+        padding: 15px 15px;
+        line-height: 38px;
+      }
+      $breakpoint-xs: 480px;
+      @media (max-width: $breakpoint-xs) {
+        font-size: 25px;
+        padding: 15px 15px;
+      }
+      $breakpoint-xxs: 300px;
+      @media (max-width: $breakpoint-xxs) {
+        font-size: 20px;
         padding: 15px 15px;
       }
     }
@@ -44,14 +68,42 @@
   .jp {
     border-top: 1px solid wheat;
     margin-top: 20px;
+    width: 100vw;
     display: flex;
     justify-content: space-between;
     align-items: center;
     padding: 20px 0px 20px 0px;
     color: white;
+    $breakpoint-md: 1060px;
+    @media (max-width: $breakpoint-md) {
+      font-size: 10px;
+    }
+    $breakpoint-sm: 768px;
+    @media (max-width: $breakpoint-sm) {
+      font-size: 30px;
+    }
+    $breakpoint-ss: 620px;
+    @media (max-width: $breakpoint-ss) {
+      font-size: 25px;
+      margin-top: 0px;
+    }
+    $breakpoint-xs: 480px;
+    @media (max-width: $breakpoint-xs) {
+      font-size: 25px;
+    }
+    $breakpoint-xxs: 300px;
+    @media (max-width: $breakpoint-xxs) {
+      font-size: 20px;
+    }
 
     .port {
       padding: 8px 40px 8px 40px;
+
+      $breakpoint-md: 1060px;
+      @media (max-width: $breakpoint-md) {
+        padding: 5px 18px 5px 18px;
+        font-size: 13px;
+      }
     }
 
     .start {
@@ -59,10 +111,42 @@
       align-items: center;
       gap: 15px;
       padding-right: 40px;
+      $breakpoint-xs: 480px;
+      @media (max-width: $breakpoint-xs) {
+        padding-right: 10px;
+      }
+      $breakpoint-xxs: 300px;
+      @media (max-width: $breakpoint-xxs) {
+        padding-right: 10px;
+      }
+
       .rt {
         padding: 8px 20px 8px 20px;
         border-radius: 100px;
         border: 1px solid wheat;
+        $breakpoint-md: 1060px;
+        @media (max-width: $breakpoint-md) {
+          padding: 5px 18px 5px 18px;
+          font-size: 13px;
+        }
+        $breakpoint-sm: 768px;
+        @media (max-width: $breakpoint-sm) {
+          //padding: 5px 18px 5px 18px;
+          font-size: 13px;
+        }
+        $breakpoint-ss: 620px;
+        @media (max-width: $breakpoint-ss) {
+          font-size: 6px;
+          padding: 66px 8px;
+        }
+        $breakpoint-xs: 480px;
+        @media (max-width: $breakpoint-xs) {
+          display: none;
+        }
+        $breakpoint-xxs: 300px;
+        @media (max-width: $breakpoint-xxs) {
+          display: none;
+        }
       }
       .jt {
         width: 40px;
@@ -72,9 +156,23 @@
         justify-content: center;
         border: 1px solid wheat;
         border-radius: 100px;
+        $breakpoint-ss: 620px;
+        @media (max-width: $breakpoint-ss) {
+          width: 20px;
+          height: 20px;
+        }
 
         .rts {
           transform: rotate(-45deg);
+          $breakpoint-md: 1060px;
+          @media (max-width: $breakpoint-md) {
+            font-size: 15px;
+          }
+          $breakpoint-ss: 620px;
+          @media (max-width: $breakpoint-ss) {
+            font-size: 10px;
+            padding: 4px 4px;
+          }
         }
       }
     }
