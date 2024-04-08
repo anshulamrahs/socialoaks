@@ -19,7 +19,13 @@
       margin-top: 50px;
       $breakpoint-tablet: 630px;
       @media (max-width: $breakpoint-tablet) {
+        font-size: large;
+        padding: 15px 15px;
+      }
+      $breakpoint-screen:480px;
+      @media (max-width: $breakpoint-screen) {
         font-size: small;
+        padding: 15px 15px;
       }
     }
     span {

@@ -4,7 +4,7 @@ const About = () => {
   return (
     <div className="w-full p-20 bg-[#CDEA68] rounded-tl-3xl rounded-tr-3xl text-black" id="about">
       <h1 className="text-[4vw] leading-[4vw] tracking-tighter">
-        Ochi is a strategic partner for fast-growing tech businesses that need
+        Socialoaks is a strategic partner for fast-growing tech businesses that need
         to raise funds, sell products, explain complex ideas, and hire great
         peo­ple.
       </h1>
