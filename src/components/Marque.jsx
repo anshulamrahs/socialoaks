@@ -5,7 +5,7 @@ const Marque = () => {
     <div
       data-scroll
       data-scroll-speed="-.1"
-      className="w-full rounded-tl-3xl rounded-tr-3xl  py-20 bg-[#004D43]"
+      className="w-full rounded-tl-3xl rounded-tr-3xl  lg:py-20 md:py-16 sm:py-14 xxs:py-8 bg-[#004D43]"
     >
       <div className="text border-t-2 border-b-2 border-[#f5deb3d9] flex  whitespace-nowrap overflow-hidden">
         <motion.h1

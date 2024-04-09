@@ -133,11 +133,11 @@
         @media (max-width: $breakpoint-sm) {
           //padding: 5px 18px 5px 18px;
           font-size: 13px;
+          padding: 8px 10px;
         }
         $breakpoint-ss: 620px;
         @media (max-width: $breakpoint-ss) {
-          font-size: 6px;
-          padding: 66px 8px;
+          display: none;
         }
         $breakpoint-xs: 480px;
         @media (max-width: $breakpoint-xs) {
