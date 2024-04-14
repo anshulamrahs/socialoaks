@@ -1,7 +1,13 @@
 
 const Services = () => {
   return (
-    <div>Services</div>
+    <div>
+        <div className="container">
+            <div className="cards">
+                
+            </div>
+        </div>
+    </div>
   )
 }
 
