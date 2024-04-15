@@ -4,7 +4,7 @@ const Services = () => {
     <div>
         <div className="container">
             <div className="cards">
-                
+                <div className="card"></div>
             </div>
         </div>
     </div>
