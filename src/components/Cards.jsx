@@ -9,7 +9,7 @@ const Cards = () => {
     >
       <div className="card-contain lg:w-1/2 lg:h-[50vh] md:w-[40vw] md:h-[40vh] sm:w-[40vw] sm:h-[40vh] xs:w-[80vw] xs:h-[20vh] xxs:w-[80vw] xxs:h-[20vh]">
         <div className="card relative rounded-xl w-full h-full bg-[#004D43] flex items-center justify-center mt-3">
-          <img className="w-[20vw] " src={BG} alt=""></img>
+          <img className="w-[20vw] " src={BG} loading="lazy"  alt=""></img>
           <button className="absolute lg:px-5 lg:py-2 md:px-5 md:py-2 sm:px-5 sm:py-2 xs:px-1 xs:py-1 xs:text-[8px]  xxs:text-[6px] rounded-full border-2 left-10  xxs:bottom-2 lg:bottom-10 md:bottom-10 sm:bottom-10 xs:bottom-5">
             &copy; 2023-2024
           </button>
