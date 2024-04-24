@@ -20,6 +20,10 @@ const About = () => {
             Read More
             <div className="w-2 h-2  bg-zinc-100 rounded-full"></div>
           </button>
+          <span className="pt-4 flex w-38 text-3xl">
+            SocialOaks Helps and handle  your business growth with the same care wether it is a small or large entity abd will provide a Best Solution to your company which 
+            You can Rely on and Feel Good about for a Period of time. Supporting You Throughout The process and every Growing Step.
+          </span>
         </div>
         <div className="lg:w-1/2 lg:h-[60vh] md:w-1/2 md:h-[45vh] sm:w-1/2 ss:w-1/2 ss:h-full xs:h-full xxs:h-full rounded-3xl bg-[#1a1a19]">
           <img

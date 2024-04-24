@@ -36,14 +36,14 @@ const Footer = () => {
             )}
           </div>
           <div className="adress">
-            <p className="lg:text-xl md:text-xl sm:text-xl xs:text-lg xxs:text-sm font-light w-1/2 tracking-tighter ">
-              Mohalla obri sach road near trimurti hospial chamba himachal
-              pradesh
+            <p className="lg:text-xl md:text-xl sm:text-xl xs:text-lg xxs:text-sm font-light w-1/2 tracking-tighter uppercase ">
+              Address: Mohalla obri sach road near trimurti Hospial Chamba
+              Himachal Pradesh
             </p>
           </div>
           <div className="adress">
-            <p className="lg:text-xl md:text-xl sm:text-xl xs:text-lg xxs:text-[10px] font-light w-1/2 tracking-tighter ">
-              email: anshulamrahswork@gmail.com
+            <p className="lg:text-xl md:text-xl sm:text-xl xs:text-lg xxs:text-[10px] font-light w-1/4 tracking-tighter ">
+              Email: socialoaksmedia@gmail.com. Tel: +919816633897
             </p>
           </div>
         </div>
